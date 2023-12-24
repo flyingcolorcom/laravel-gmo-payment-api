@@ -109,6 +109,44 @@ class GmoPaymentApi
     }
 
     /**
+     * 接続先URLを設定する
+     *
+     * @param string $url
+     * @return GmoPaymentApi
+     */
+    public function setBaseUrl(string $url): GmoPaymentApi
+    {
+        $this->baseUrl = $url;
+        return $this;
+    }
+    /**
+     * サイト情報を設定する
+     *
+     * @param string $site_id
+     * @param string $site_password
+     * @return GmoPaymentApi
+     */
+    public function setSite(string $site_id, string $site_password): GmoPaymentApi
+    {
+        $this->site_id = $site_id;
+        $this->site_password = $site_password;
+        return $this;
+    }
+    /**
+     * ショップ情報を設定する
+     *
+     * @param string $shop_id
+     * @param string $shop_password
+     * @return GmoPaymentApi
+     */
+    public function setShop(string $shop_id, string $shop_password): GmoPaymentApi
+    {
+        $this->shop_id = $shop_id;
+        $this->shop_password = $shop_password;
+        return $this;
+    }
+
+    /**
      * @param array|null $fake
      * @return $this
      * @throws GmoApiException
