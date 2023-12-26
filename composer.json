@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": "^7.3 | ^7.4 | ^8.0",
+        "php": "^7.3 | ^7.4 | ^8.0 | ^8.1 | ^8.2",
         "laravel/framework": "^7.0 | ^8.0",
         "bensampo/laravel-enum": "^3.4|^4.2",
         "guzzlehttp/guzzle": "^7.3"
