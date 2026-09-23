@@ -2,13 +2,11 @@
 
 namespace ShibuyaKosuke\LaravelGmoPaymentApi\Enums;
 
-use BenSampo\Enum\Enum;
-
 /**
  * Class GmoApiResponseType
  * @package ShibuyaKosuke\LaravelGmoPaymentApi\Enums
  */
-final class GmoApiResponseType extends Enum
+final class GmoApiResponseType
 {
     /**
      * FORM

@@ -2,13 +2,11 @@
 
 namespace ShibuyaKosuke\LaravelGmoPaymentApi\Enums;
 
-use BenSampo\Enum\Enum;
-
 /**
  * Class GmoCvsType
  * @package ShibuyaKosuke\LaravelGmoPaymentApi\Enums
  */
-final class GmoCvsType extends Enum
+final class GmoCvsType
 {
     public const LAWSON = '10001';
     public const FAMILY_MART = '10002';
