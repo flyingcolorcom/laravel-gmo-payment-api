@@ -151,7 +151,7 @@ class GmoPaymentApi
      * @return $this
      * @throws GmoApiException
      */
-    public function setFake(array $fake = null): GmoPaymentApi
+    public function setFake(?array $fake = null): GmoPaymentApi
     {
         if (is_null($fake)) {
             return $this;

@@ -11,7 +11,7 @@ use ShibuyaKosuke\LaravelGmoPaymentApi\GmoPaymentApi;
  *
  * @see GmoPaymentApi::class
  *
- * @method static GmoPaymentApi setFake(array $fake = null)
+ * @method static GmoPaymentApi setFake(?array $fake = null)
  * @method static array showParams()
  * @method static boolean hasErrors()
  * @method static array getErrors()
